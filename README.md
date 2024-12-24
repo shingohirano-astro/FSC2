@@ -11,6 +11,9 @@ This repository contains:
 
 ### File Structure
 
+data/ 
+├── table1.csv 
+└── table2.csv
 
 ### Column Definitions
 

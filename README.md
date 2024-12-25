@@ -1,6 +1,8 @@
 # First star clusters - II
 
+<!--
 A short description of your project, what kind of data it contains, and how it relates to your research or application.
+--> 
 
 ## Overview
 
@@ -9,24 +11,31 @@ This repository contains:
 
 ## Data Description
 
-### File Structure
-
-data/ 
-├── table1.csv 
-└── table2.csv
-
-### Column Definitions
-
 - **FSC_Table1.csv**  
+  | Column Name | Description                                    | Unit                   |
+  |-------------|------------------------------------------------|------------------------|
+  | `Class`     | Unique identifier for the dark matter halo     | -                      |
+  | `v_SV`      | Streaming velocity normalized by the RMS value | (sigma_SV)             |
+  | `z`         | Redshift at the time of collapse               | -                      |
+  | `R_vir`     | Halo radius at the virial scale                | solar radii (R_\odot)  |
+  | `M_vir`     | Halo mass at the virial scale                  | solar masses (M_\odot) |
+  | `f_b`       | Baryon fraction at the virial scale            | -                      |
+  | `N_HD/N`    | Ratio of HD-cooling models                     | -                      | 
+  | `N_c`       | Number of cores                                | -                       |
+  | `M_ctot`    | Total mass of cores                            | solar masses (M_\odot)  | 
+  | `eps_III`   | Mass conversion efficiency                     | -                       | 
+  | `M_c1`      | Mass of the primary massive core               | solar masses (M_\odot)  |
+  | `M_c2`      | Mass of the secondary massive core             | solar masses (M_\odot)  |
+  | `q_c`       | Mass ratio of the primary and secondary cores  | -                       |
+
+
+- **FSC_TableA1.csv**  
   | Column Name   | Description                               | Unit       |
   |---------------|-------------------------------------------|------------|
   | `halo_id`     | Unique identifier for the dark matter halo | -          |
   | `redshift`    | Redshift at the time of collapse           | (dimensionless) |
   | `mass_Msun`   | Halo mass                                  | solar masses (M_\odot) |
   | ...           | ...                                       | ...
-
-- **FSC_TableA1.csv**  
-  Describe similarly, explaining each column’s meaning, units, or any relevant info.
 
 ## Usage Notes
 

@@ -51,8 +51,10 @@ This repository contains:
 
 1. **Data Format**: CSV files are comma-separated (`,`), encoded in UTF-8.
 3. **Citation**: If you use this data in your research or publication, please cite our paper:
+<!--
    > Hirano (2025). Title of the paper. *Journal Name*, Volume(Issue), Pages.  
    > [DOI or arXiv link]
+--> 
 
 ## License
 

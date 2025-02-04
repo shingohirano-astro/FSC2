@@ -46,7 +46,7 @@ This repository contains:
   | 12 | `M_c1`      | Mass of the primary massive core               | solar masses (M_\odot) |
   | 13 | `M_c2`      | Mass of the secondary massive core             | solar masses (M_\odot) |
   | 14 | `q_c`       | Mass ratio of the primary and secondary cores  | -                      |
-  |----|-------------|------------------------------------------------|------------------------|
+  |    |             |                                                |                        |
   | 15 | `v_circ`    | Circular velocity at the virial scale (Fig.12) | (km/s)                 |
 
 ## Usage Notes
